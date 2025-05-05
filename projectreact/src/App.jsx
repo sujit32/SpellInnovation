@@ -1,8 +1,5 @@
 import { Route, Routes } from "react-router";
 import AppLayout from "./components/layout/appLayout";
-
-import Ui from "./pages/admin/Ui";
-
 import Login from "./pages/auth/Login";
 import ForgetPassword from "./pages/auth/ForgetPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
@@ -14,7 +11,6 @@ const App = () => {
     <Routes>
       <Route path="/" element={<AppLayout />}>
         <Route path="/" element={<Dashboard/>} />
-        <Route path="/ui" element={<Ui />} />    
       </Route>
       <Route path="/login" element={<Login />}/>
       <Route path="/forgetpassword" element={<ForgetPassword />}/>

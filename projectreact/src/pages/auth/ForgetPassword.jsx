@@ -1,11 +1,10 @@
-import { Link } from "react-router";
 
 const Login = () => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100 to-pink-500">
       <div className="bg-white rounded-lg shadow-lg grid grid-cols-7 h-[450px] w-[1000px]">
-        <div className="h-full col-span-3 rounded-l-lg bg-[url(/src/assets/ll1.png)]">
+        <div className="h-full col-span-3 rounded-l-lg bg-[url(/src/assets/logo.jpg)]">
           <p className="text-4xl text-white !pt-20 !pl-20">
             MAGIC IN THE DETAILS
           </p>
